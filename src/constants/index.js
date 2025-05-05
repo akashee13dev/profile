@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
+import authImg from "../assets/projects/authentication.PNG";
 
 export const HERO_CONTENT = `I specialize in building robust, scalable, and user-centric web applications that solve real-world problems. With over 5 years of experience in both front-end and back-end development, I bring deep expertise in technologies like React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. Whether it's crafting sleek interfaces or architecting powerful APIs, I’m passionate about delivering solutions that fuel growth and elevate user experiences.
 
@@ -79,10 +80,9 @@ export const PROJECTS = [
   {
     link:"https://github.com/akashee13dev/Akashee_X",
     title: "Simple Authentication",
-    image: project4,
-    description:
-      "As part of a bootcamp, I set out to build a Twitter clone to gain hands-on experience with the MERN stack (MongoDB, Express, React, Node.js). I spent a focused weekend developing the application, implementing core features such as user authentication, posting, liking, commenting, profile management, and follow/unfollow functionalities using Express APIs. For the client side, I used React with Tailwind CSS, as recommended by the bootcamp—and it turned out to be a great choice.I even skipped the CSK vs RCB match on 3rd May 2025 to complete this project, but the learning was well worth it ",
-    technologies: ["Express", "React", "Node" , "MongoDB" ],
+    image: authImg,
+    description:"As part of learning Spring Security, I developed a basic authentication flow using a simple login form. The form is integrated with my company's landing page to simulate a real-world login experience. This setup uses Spring Security's default username-password authentication mechanism and provides a foundational understanding of securing web applications. The goal was to explore user session handling, access restrictions, and form-based login customization in a Spring Boot environment. This will serve as a base for implementing more advanced security features like role-based access control and OAuth2 in the future.",
+    technologies: ["SpringSecurity", "Hybernate" ],
   },
   {
     link:"https://github.com/akashee13dev/AI-Chatbot",

@@ -13,7 +13,7 @@ import {
   DiMongodb,
   DiPostgresql
 } from "react-icons/di";
-import { SiExpress, SiPostgresql, SiSpringboot } from "react-icons/si";
+import { SiExpress, SiHibernate, SiPostgresql, SiSpringboot, SiSpringsecurity } from "react-icons/si";
 import { FaStrava } from "react-icons/fa";
 
 const Projects = () => {
@@ -28,6 +28,10 @@ const Projects = () => {
   const shouldShowMore = project.description.split(" ").length > DESCRIPTION_WORD_LIMIT;
 
   const skills = [
+    
+    
+    { icon: <SiSpringsecurity />, label: "SpringSecurity", color: "#6DB33F" },
+    { icon: <SiHibernate />, label: "Hybernate", color: "#59666C" },
     { icon: <DiNodejs />, label: "Node", color: "#68A063" },
     { icon: <SiExpress />, label: "Express", color: "white" },
     { icon: <SiPostgresql />, label: "Postgresql", color: "#336791" },
