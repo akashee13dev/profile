@@ -143,7 +143,7 @@ const Experience = () => {
                                                 : (
                                                     <span
                                                         key={index}
-                                                        className="bg-stone-700 text-white text-xs px-2 py-1 rounded-md">{techLabel}</span>
+                                                        className="bg-stone-700 text-white text-xs px-2 py-1 hover:bg-white hover:text-black rounded-md">{techLabel}</span>
 
                                                 );
                                         })}
