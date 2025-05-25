@@ -13,8 +13,8 @@ import {
   DiMongodb,
   DiPostgresql
 } from "react-icons/di";
-import { SiExpress, SiHibernate, SiPostgresql, SiSpringboot, SiSpringsecurity } from "react-icons/si";
-import { FaStrava } from "react-icons/fa";
+import { SiExpress, SiHibernate, SiPostgresql, SiSocketdotio, SiSpringboot, SiSpringsecurity } from "react-icons/si";
+import { FaCode, FaStrava } from "react-icons/fa";
 
 const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -31,6 +31,8 @@ const Projects = () => {
     
     
     { icon: <SiSpringsecurity />, label: "SpringSecurity", color: "#6DB33F" },
+    { icon: <SiSocketdotio />, label: "Socket", color: "white" },
+    { icon: <FaCode />, label: "DSA", color: "#4B8BBE" },
     { icon: <SiHibernate />, label: "Hybernate", color: "#59666C" },
     { icon: <DiNodejs />, label: "Node", color: "#68A063" },
     { icon: <SiExpress />, label: "Express", color: "white" },
@@ -114,7 +116,13 @@ const Projects = () => {
                         className="flex items-center gap-3 text-lg rounded p-3"
                         style={{ color: tech.color }}
                       >
-                        <span className="text-2xl">{tech.icon}</span>
+                        <div className="relative group inline-block">
+  <span className="text-2xl">{tech.icon}</span>
+  <div className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition bg-gray-800 text-white text-sm px-2 py-1 rounded-md whitespace-nowrap z-10">
+    {tech.label}
+  </div>
+</div>
+
                       </div>
                     ) : (
                       <div

@@ -1,13 +1,12 @@
 import project1 from "../assets/projects/project-1.webp";
+import algovisualization from "../assets/projects/algovisualization.png";
+import chatio from "../assets/projects/chatio.png";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 import authImg from "../assets/projects/authentication.PNG";
 
-export const HERO_CONTENT = `I specialize in building robust, scalable, and user-centric web applications that solve real-world problems. With over 5 years of experience in both front-end and back-end development, I bring deep expertise in technologies like React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. Whether it's crafting sleek interfaces or architecting powerful APIs, I’m passionate about delivering solutions that fuel growth and elevate user experiences.
-
-Let’s build something great together.`;
-
+export const HERO_CONTENT = `<strong>Software Engineer</strong> with <strong>3+ years of experience</strong> building scalable, AI-powered CRM solutions at <strong>Zoho</strong>. Specialized in backend development with <strong>Java</strong>, <strong>Spring Boot</strong>, and distributed systems like <strong>Kafka</strong> and <strong>Redis</strong>. Passionate about designing <strong>robust APIs</strong>, improving <strong>system performance</strong>, and delivering <strong>end-to-end features</strong> that serve thousands of enterprise users.`
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
@@ -61,6 +60,24 @@ Gained valuable experience handling multiple features at once and addressing sud
 ];
 
 export const PROJECTS = [
+  
+  {
+    link: "https://github.com/akashee13dev/visual_algo",
+    title: "Visual Algorithm for Path Finder",
+    image: algovisualization,
+    description:
+      "An interactive React project built to visualize common algorithms, with a focus on graph and pathfinding algorithms like Dijkstra’s. Created as part of my ongoing learning in Data Structures and Algorithms (DSA) to deepen my problem-solving skills.Inspired by existing algorithm visualizers, I developed this tool from scratch, leveraging React for dynamic UI and various CSS resources for styling. This is my first personal project that I’m proud to showcase.I plan to continuously enhance it by adding new algorithms and improving the visualization experience for better clarity and user engagement.",
+    technologies: ["React", "DSA"],
+  }
+  ,{
+    link: "https://github.com/akashee13dev/chatIO",
+    title: "Chat IO",
+    image: chatio,
+    description:
+      "A real-time chat app built with Node.js, Express, and Socket.IO, inspired by platforms like Omegle. Designed to deepen understanding of Socket.IO and real-time communication.Planned enhancements include audit logging, video chat using WebRTC, and scaling the backend with Spring WebSocket for advanced use cases.",
+    technologies: ["HTML", "CSS", "JavaScript", "Socket", "Express"]
+  }
+,  
   {
     link:"https://github.com/akashee13dev/alarm",
     title: "Simple Alarm",
