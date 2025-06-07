@@ -11,10 +11,12 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPostgresql
+  DiPostgresql,
+  DiPython
 } from "react-icons/di";
 import { SiExpress, SiHibernate, SiPostgresql, SiSocketdotio, SiSpringboot, SiSpringsecurity } from "react-icons/si";
 import { FaCode, FaStrava } from "react-icons/fa";
+import { GiGemini } from "react-icons/gi";
 
 const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -48,7 +50,9 @@ const Projects = () => {
     { icon: <SiSpringboot />, label: "Spring Boot", color: "#6DB33F" },
     { icon: <DiReact />, label: "React", color: "#61DAFB" },
     { icon: <DiNodejs />, label: "Node.js", color: "#339933" },
-    { icon: <DiMongodb />, label: "MongoDB", color: "green" }
+    { icon: <DiMongodb />, label: "MongoDB", color: "green" },
+    { icon: <DiPython />, label: "Python", color: "#3776AB" },  
+    { icon: <GiGemini />, label: "Gemini", color: "#FFC107" }
   ];
 
   const toggleExpanded = () => {

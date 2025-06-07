@@ -1,5 +1,6 @@
 import project1 from "../assets/projects/project-1.webp";
 import algovisualization from "../assets/projects/algovisualization.png";
+import drawai from "../assets/projects/drawai.png"
 import chatio from "../assets/projects/chatio.png";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
@@ -68,6 +69,14 @@ export const PROJECTS = [
     description:
       "An interactive React project built to visualize common algorithms, with a focus on graph and pathfinding algorithms like Dijkstra’s. Created as part of my ongoing learning in Data Structures and Algorithms (DSA) to deepen my problem-solving skills.Inspired by existing algorithm visualizers, I developed this tool from scratch, leveraging React for dynamic UI and various CSS resources for styling. This is my first personal project that I’m proud to showcase.I plan to continuously enhance it by adding new algorithms and improving the visualization experience for better clarity and user engagement.",
     technologies: ["React", "DSA"],
+  },
+  {
+    link: "https://github.com/akashee13dev/DrawInsights",
+    title: "AI Insights by Drawing",
+    image: drawai,
+    description:
+      "This project connects Gemini AI with your drawing input to analyze and generate meaningful insights in real-time. It can calculate Math also .Use the Reset button to clear your drawing and Calculate to trigger AI analysis.",
+    technologies: ["Python", "React","Gemini"],
   }
   ,{
     link: "https://github.com/akashee13dev/chatIO",
